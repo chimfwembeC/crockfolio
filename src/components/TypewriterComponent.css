@@ -1,0 +1,30 @@
+.typewriter-container {
+  font-family: monospace;
+  color: rgb(14, 224, 224);
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.Typewriter__cursor {
+  display: inline-block;
+  font-size: 34px;
+  color: rgb(0, 150, 150);
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+.custom-typewriter-text {
+  font-family: 'A', sans-serif; /* Replace 'Your Custom Font' with your desired font */
+  color: #FFA500; /* Replace #FFA500 with your desired color */
+}

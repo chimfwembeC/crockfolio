@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sedan-sc-regular {
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.github-calendar .color-scale-0 {
+  fill: #EBEDF0;
+}
+
+.github-calendar .color-scale-1 {
+  fill: rgba(14, 224, 224, 0.25);
+}
+
+.github-calendar .color-scale-2 {
+  fill: rgba(14, 224, 224, 0.5);
+}
+
+.github-calendar .color-scale-3 {
+  fill: rgba(14, 224, 224, 0.75);
+}
+
+.github-calendar .color-scale-4 {
+  fill: rgb(14, 224, 224);
+}
