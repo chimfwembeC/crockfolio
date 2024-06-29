@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import { IconButton } from '@mui/material';
 import { FaGithub, FaEnvelope, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import CssBaseline from '@mui/material/CssBaseline';
+import AdSenseAd from '../components/AdSenseAd';
 
 const FooterComponent = () => {
   return (
@@ -67,6 +68,7 @@ const FooterComponent = () => {
       <Typography variant="body1">
         © {new Date().getFullYear()} My Portfolio. All rights reserved.
       </Typography>
+<AdSenseAd />
     </Box>
   );
 };
