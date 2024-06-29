@@ -17,6 +17,7 @@ const Layout = () => (
     <main>
       <Outlet />
     </main>
+  <FooterComponent />
   </div>
 );
 export default Layout;
