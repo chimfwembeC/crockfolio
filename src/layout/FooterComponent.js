@@ -14,7 +14,7 @@ const FooterComponent = () => {
         <Typography variant="h6">Contact Me</Typography>
         <IconButton
           component="a"
-          href="mailto:youremail@example.com"
+          href="mailto:kangwac3@gnail.com"
           color="inherit"
           aria-label="email"
         >
