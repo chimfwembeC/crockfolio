@@ -30,7 +30,7 @@ function Welcome() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          height: "100vh",
+          height: 500,
         }}
       >
         <Grid container spacing={2}>
