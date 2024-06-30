@@ -8,12 +8,6 @@ import FooterComponent from './FooterComponent';
 
 import { Outlet } from "react-router-dom";
 const Layout = () => (
-const AdSenseAd = () => {
-  useEffect(() => {
-    if (window) {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    }
-  }, []);
 
   <div>
     <header>
