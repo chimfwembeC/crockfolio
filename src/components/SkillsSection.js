@@ -23,14 +23,6 @@ const skillsData = [
   { name: "Blender", icon: <FaBlender /> },
   { name: "Python", icon: <FaPython /> },
   { name: "PHP", icon: <FaPhp /> },
-
-
-
-
-
-
-
-
   // Add more skills as needed
 ];
 
