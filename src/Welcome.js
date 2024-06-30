@@ -43,7 +43,7 @@ function Welcome() {
           </Grid>
           {/* Content on the right */}
           <Grid item xs={12} md={6}>
-            <div className="w-full px-8">
+            <div className="w-3/4">
               {/* <h1 className="text-3xl font-bold">
                 Hello, <span className="text-blue-500">world!</span>
               </h1> */}
