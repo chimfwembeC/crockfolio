@@ -35,7 +35,7 @@ function Welcome() {
       >
         <Grid container spacing={2}>
           {/* Image or icon on the left */}
-          <Grid item sm={6} md={6}>
+          <Grid item xs={6} md={6}>
             {/* Add your image or icon here */}
           <Box display="flex" justifyContent="center" alignItems="center">
           <Image src={"logo192.png"} alt="Your Image" />
