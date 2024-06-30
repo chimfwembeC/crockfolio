@@ -44,7 +44,7 @@ const SkillsSection = () => {
       </Typography>
       <Grid container spacing={2}>
         {skillsData.map((skill, index) => (
-          <Grid item xs={12} sm={4} md={3} key={index}>
+          <Grid item xs={3} sm={4} md={6} key={index}>
             <Box
               display="flex"
               alignItems="center"
