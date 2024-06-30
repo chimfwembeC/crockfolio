@@ -23,25 +23,6 @@ const AdSenseAd = () => {
     </header>
     <main>
       <Outlet />
-<ins
-      className="adsbygoogle"
-      style={{ display: 'block' }}
-      data-ad-client="ca-pub-6221660864872022" // Replace with your client ID
-      data-ad-slot="1234567890" // Replace with your ad slot ID
-      data-ad-format="auto"
-    />
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6221660864872022"
-     crossorigin="anonymous"></script>
-<!-- Test unit -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6221660864872022"
-     data-ad-slot="7591063174"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
     </main>
   <FooterComponent />
   </div>
