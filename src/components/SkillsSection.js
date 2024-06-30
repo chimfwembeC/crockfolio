@@ -28,7 +28,7 @@ const skillsData = [
 
 const SkillsSection = () => {
   return (
-    <div className="container mx-auto w-3/4" sx={{
+    <div className="container px-4 mx-auto lg:w-3/4" sx={{
       width: 500
     }}>
       <Typography variant="h4" gutterBottom>
