@@ -23,7 +23,7 @@ function Welcome() {
   // }, []);
 
   return (
-    <div className="App mt-10 py-10">
+    <div className="App py-10">
       <div
         className=""
         style={{
